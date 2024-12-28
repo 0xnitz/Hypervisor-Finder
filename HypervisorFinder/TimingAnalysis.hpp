@@ -18,7 +18,7 @@ struct cpuid_arguments
 	uint32_t m_edx;
 };
 
-static constexpr size_t TIMES_TO_RUN_INSTRUCTION = 10000;
+static constexpr size_t TIMES_TO_RUN_INSTRUCTION = 100000;
 
 double cpuid_timing();
 
